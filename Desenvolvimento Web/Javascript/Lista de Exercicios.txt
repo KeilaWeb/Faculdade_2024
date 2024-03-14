@@ -1,0 +1,76 @@
+1 – Ler um valor e escrever se é positivo, negativo ou zero.
+
+2 - Ler as notas da 1a e 2a avaliação de um aluno. 
+Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado 
+(considerar que se a nota for igual ou maior que 7 o aluno é aprovado). Escrever também a média calculada.
+
+3 - Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou não 
+votar este ano (não é necessário considerar o mês em que a pessoa nasceu).
+4 - Ler 2 valores e escrever o maior deles.
+5 - Ler 2 valores e escrevê-los em ordem crescente.
+6 - Ler 3 valores e escrever o maior deles.
+7 - Ler 3 valores e escrever a soma dos 2 maiores.
+8 - Ler 3 valores e escrevê-los em ordem crescente.
+9 - Faça um algoritmo que leia um nº inteiro e mostre uma mensagem indicando se este número é par ou ímpar. 
+Ex: se (x%2=0) “x é par”, se (x%2=1) “x é impar”.
+
+10.  Leia quantos gols o TIME A marcou em uma partida e leia quantos gols o TIME B marcou. 
+Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+
+Exercícios – Estruturas de repetição - for 
+
+1 – Escreva um Programa que receba a idade de 15 pessoas, calcule e imprima:
+- a quantidade de pessoas em cada faixa etária; a porcentagem de cada faixa etária em relação ao total de pessoas. 
+As faixas etárias são:
+1 a 15 anos 
+16 a 30 anos 
+31 a 45 anos 
+46 a 60 anos 
+> = 61 anos
+
+2) Faça um Programa que receba a idade e o peso de 15 pessoas. 
+Calcule e imprima as médias dos pesos das pessoas da mesma faixa etária. 
+As faixas etárias são: de 1 a 10 anos, de 11 a 20 anos, de 21 a 30 anos e maiores de 30 anos.
+
+3) Escreva um Programa que receba um conjunto de valores inteiros e positivos, calcule e imprima o maior e o menor valor do conjunto. 
+Para encerrar a entrada de dados, deve ser digitado o valor zero. Para valores negativos, deve ser enviada uma mensagem. 
+Esses valores (zero e negativos) não entrarão nos cálculos.
+
+4) Faça uma Programa que receba, como entrada, uma lista de números positivos ou negativos finalizada com o número zero e forneça, 
+como saída, a soma dos números positivos, a soma dos números negativos e a soma das duas somas parciais.
+  
+5) Faça uma Programa que receba a idade e a altura de várias pessoas. Calcule e imprima a média das alturas das pessoas com mais de 50 anos. 
+Para encerrar a entrada de dados, digite idade <= zero.
+
+6) Em um campeonato de futebol, cada time tem uma lista oficial de 23 jogadores. Cada time prepara uma lista contendo o peso e a idade de cada um dos seus jogadores. 
+Os 40 times que participam do torneio enviam essas listas para o CPD da confederação. Faça uma Programa que apresente as seguintes informações:  
+• peso médio e a idade média de cada um dos times; 
+• peso médio e a idade média de todos os participantes
+
+7) Uma empresa decidiu fazer um levantamento em relação aos candidatos que se apresentarem para preenchimento de vagas no seu quadro de funcionários. 
+Supondo que você seja o programador dessa empresa, faça uma Programa que leia para cada candidato a idade, o sexo (M=1 ou F=2) e a experiência no serviço (S=1 ou N=2). 
+Para encerrar a entrada de dados, digite zero para a idade. Calcule e escreva:  
+• número de candidatos do sexo feminino; 
+• número de candidatos do sexo masculino; 
+• a idade média dos homens que já têm experiência no serviço;  
+• a porcentagem dos homens com mais de 45 anos entre o total dos homens;  
+• número de mulheres com idade inferior a 35 anos e com experiência no serviço;  
+• a menor idade entre as mulheres que já têm experiência no serviço.
+
+8) Programa que receba duas notas de 6 alunos calcule e imprima:  
+• a média entre essas 2 notas de cada aluno;  
+• a mensagem de acordo com a tabela abaixo: 
+Média 		Mensagem 
+De 0  a 5.0  	reprovado 
+De 5.1 a 6.9 	recuperação 
+De 7.0  a  10  	aprovado  
+• total de alunos aprovados e o total de alunos reprovados;  
+• a média geral do Programa, isto é, a média entre as médias dos alunos. 
+
+9) Foi feita uma pesquisa de audiência de canal de TV em várias casas de uma certa cidade, em um determinado dia. 
+Para cada casa visitada foi fornecido o número do canal (4, 5, 7, 12) e o número de pessoas que estavam assistindo a ele naquela casa. 
+Se a televisão estivesse desligada, nada seria anotado, ou seja, esta casa não entraria na pesquisa. Faça um Programa que:  
+leia um número indeterminado de dados, isto é, o número do canal e o número de pessoas que estavam assistindo; 
+ calcule e imprima a porcentagem de audiência em cada canal. Para encerrar a entrada de dados, digite o número do canal zero.
+
+
