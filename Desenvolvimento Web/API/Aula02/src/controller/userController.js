@@ -1,6 +1,5 @@
 const userService = require('../service/user.js');
 
-
 async function getAllUser(req, res){
     try{
         const rows = await userService.getAllUser();

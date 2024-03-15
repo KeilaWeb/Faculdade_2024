@@ -11,7 +11,7 @@ async function createUserTable(){
             `CREATE TABLE IF NOT EXISTS user(
                 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
                 name VARCHAR(255) not null,
-                pasword VARCHAR(255) not null,
+                password VARCHAR(255) not null,
                 email VARCHAR(255) NOT NULL
             )`
         );
