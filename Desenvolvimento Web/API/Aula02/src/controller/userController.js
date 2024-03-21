@@ -13,17 +13,18 @@ async function getAllUser(req, res){
 }
 
 async function createUser(req, res){
-    const {name, email, password} = req.body;
-    try{
-        await userService.createUser(name, email, password);
+        try{
+            const {name, email, password} = req.body;
 
-        res.status(201).json({ message: "Success"})
-    }catch(error){
-        res.status(500).send
-({
-    message: "Error adding user!",
-    error:error.message,
-})    }
+            await userService.createUser(name, email, password);
+            res.status(201).json({ message: "Success"})
+        }catch(error){
+            res.status(500).send
+        ({
+            message: "Error adding user!",
+            error:error.message,
+        })    
+    }
 }
 
 module.exports = {
