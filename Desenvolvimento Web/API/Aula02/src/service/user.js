@@ -9,6 +9,17 @@ async function getAllUser(){
     return rows;
 }
 
+async function createUser(name, email, password){
+    const connection = await mysql.createConnection(databaseConfig);
+
+    const insertUser = 'INSERT INTO user(name, email, password) VALUES(?, ?, ?)';
+
+    await connection.query(insertUser, [name, email, password])
+
+    await connection.end();
+}
+
 module.exports = {
     getAllUser,
+    createUser,
 };
